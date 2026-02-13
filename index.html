@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QnA Quiz</title>
+    <link rel="stylesheet" href="QnA_Quiz.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Let's start Questionnaire on Frontend and Backend!</h1>
+        <div class="btn_div">
+            <button class="btn btnF">FRONTEND</button>
+            <button class="btn btnB">BACKEND</button>
+        </div>
+    </div>
+
+    <div class="container1" style="display:none;">
+        <div class="cross-button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-x-lg" viewBox="0 0 16 16">
+                <path
+                    d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z" />
+            </svg></div>
+        <div class="quiz_box">
+            <p class="question_text">This is the first question</p>
+
+            <div class="psn_btn_div">
+                <button class="psn btn1">Previous</button>
+                <button class="psn btn2">Show Answer</button>
+                <button class="psn btn3">Next</button>
+                <button class="psn btn4">Shuffle</button>
+            </div>
+        </div>
+        <div class="ans_div" style="display:none;">
+            <p>Answer: This is the answer</p>
+        </div>
+    </div>
+
+
+    <script src="QnA_Quiz.js"></script>
+</body>
+
+</html>

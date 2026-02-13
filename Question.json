@@ -1,0 +1,54 @@
+{
+    "frontend": [
+        {
+            
+            "question": "What is html",
+            "answer": "hypertext markup language"
+        },
+        {
+            
+            "question": "What is CSS",
+            "answer": "Cascading style sheet"
+        },
+        {
+            
+            "question": "which language is used to add interactivity to webpages",
+            "answer": "Javascript"
+        },
+
+        {
+           "question": "Which HTML tag is used to create a hyperlink?",
+           "answer": "<a> tag"
+        },
+        {
+            "question": "Which HTML tag is used to create an ordered list in a webpage?",
+            "answer": "<ol> tag"
+        }
+    ],
+
+    "backend": [
+        {
+            
+            "question": "What is API",
+            "answer": "Application Programming interface"
+        },
+        {
+            
+            "question": "Which language is mostly used for backend",
+            "answer": "Java, php"
+        },
+        {
+            
+            "question": "what does this HTTP 404 status code means",
+            "answer": "Page not found"
+        },
+        {
+            "question": "How to initialize Git repository",
+            "answer": "using git init"
+        },
+        {
+            "question": "How to switch branches on Git",
+            "answer": "git switch branchname"
+        }
+    ]
+}
